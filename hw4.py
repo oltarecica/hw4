@@ -83,6 +83,28 @@ list_2 = [[2], 4, 5, [1, [2], [3, 5, [7, 8]], 10], 1]
 print(sum_general_int_list(list_2))  
 
 
+#data analysis
+import pandas as pd
+import diablib.data_prep as dp
+import diablib.modeling as md
+import diablib.evaluation as ev
+
+
+df = dp.load_data("sample_diabetes_mellitus_data.csv")
+df = dp.clean_data(df)
+df = dp.encode_data(df)
+train, test = dp.split_data(df)
+
+model = md.train_model(train)
+train = md.predict(model, train)
+test = md.predict(model, test)
+
+train_auc, test_auc = ev.evaluate_model(model, train, test, md.FEATURES, md.TARGET)
+print(f"Train ROC-AUC: {train_auc:.3f}")
+print(f"Test ROC-AUC: {test_auc:.3f}")
+
+
+
 
 
 
