@@ -1,0 +1,6 @@
+README.md
+pyproject.toml
+diablib.egg-info/PKG-INFO
+diablib.egg-info/SOURCES.txt
+diablib.egg-info/dependency_links.txt
+diablib.egg-info/top_level.txt

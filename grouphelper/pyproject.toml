@@ -1,0 +1,6 @@
+[project]
+name = "grouphelper"
+version = "0.1.0"
+description = "Simple group project library for hw4."
+authors = [{ name = "Olsa Berani", email = "olsaberani@bse.eu" }]
+requires-python = ">=3.10"

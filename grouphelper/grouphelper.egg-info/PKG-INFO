@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: grouphelper
+Version: 0.1.0
+Summary: Simple group project library for hw4.
+Author-email: Olsa Berani <olsaberani@bse.eu>
+Requires-Python: >=3.10

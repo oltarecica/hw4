@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+grouphelper/__init__.py
+grouphelper/text_tools.py
+grouphelper.egg-info/PKG-INFO
+grouphelper.egg-info/SOURCES.txt
+grouphelper.egg-info/dependency_links.txt
+grouphelper.egg-info/top_level.txt
